@@ -29,6 +29,16 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/assets\/css\/normalize-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/css\/normalize-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/assets\/css\/normalize.css": {
 		"aP": 1,
 		"bl": 0,
@@ -51,12 +61,12 @@
 		},
 	"\/assets\/img\/header.jpg": {
 		"ft": 16384,
-		"iS": 7297207,
+		"iS": 1164560,
 		"oA": 0,
 		"oAP": "\/assets\/img\/header.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/assets\/img\/linkedin.svg": {
@@ -112,6 +122,13 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/build\/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/build\/.gitignore",
+		"oF": 0
+		},
 	"\/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -128,7 +145,8 @@
 	"creationDate": 533507702,
 	"displayValue": "personal-website",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-gavin"
+	"iconImageName": "meme-gavin",
+	"lastBuiltDate": 533586365
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

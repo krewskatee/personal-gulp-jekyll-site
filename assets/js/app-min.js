@@ -1,1 +1,0 @@
-$(".card").click(function(){console.log("hi"),$(".card").toggleClass("transform-active")});

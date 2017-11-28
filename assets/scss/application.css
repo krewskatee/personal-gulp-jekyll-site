@@ -52,11 +52,6 @@ footer {
   background-position: 0 0;
   background-repeat: no-repeat;
   padding: 5em 0; }
-  @media (max-width: 700px) {
-    .banner {
-      background-image: url("../img/header.jpg");
-      background-size: 101%;
-      background-position: 0 0; } }
   .banner .logo {
     float: left; }
   .banner h1 {
