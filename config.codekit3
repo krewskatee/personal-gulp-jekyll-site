@@ -39,6 +39,46 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/assets\/img\/github.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/img\/github.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/img\/linkedin.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/img\/linkedin.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/img\/medium.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/img\/medium.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/js\/app.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/app-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"\/assets\/scss\/application.sass": {
 		"aP": 0,
 		"bl": 0,
@@ -66,7 +106,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 533507702,
-	"displayValue": "portfolio_site",
+	"displayValue": "personal-website",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-gavin"
 	},

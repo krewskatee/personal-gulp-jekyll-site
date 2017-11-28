@@ -7,8 +7,35 @@ $grey: #414148
   background-size: $size
   background-position: $position
 
+.mobile_toggle
+  display: none
+
+@media (max-width: 800px)
+  .mobile_toggle
+    display: table
+  .card_half_mobile
+    width: 100%
+  .web_toggle
+    display: none
+    width: 100%
+    .row:after
+      
+
+
 *
   box-sizing: border-box
+
+a
+  text-decoration: none
+
+  .card:hover
+    webkit-filter: blur(4px)
+    filter: blur(4px)
+footer
+  color: $white
+  text-align: center
+  font-size: .8em
+
 
 .cf:before, .cf:after
   content: ""
@@ -37,6 +64,7 @@ $grey: #414148
 .work
   background: $grey
   padding: 5em 2em
+
   .row
     width: 100%
     margin-bottom: 2em
@@ -50,6 +78,8 @@ $grey: #414148
     border-radius: .35em
     height: 450px
     display: table
+    background-repeat: no-repeat
+    color: $white
 
   .card_full
     width: 100%
@@ -58,6 +88,19 @@ $grey: #414148
     width: 48.5%
     float: left
     height: 700px
+
+  .card_third
+    width: 75%
+    float: left
+
+  .card_2
+    @include bg_img('../img/github.svg', 130%, 100px 20px)
+
+  .card_3
+    @include bg_img('../img/medium.svg', 130%, 100px 20px)
+
+  .card_4
+    @include bg_img('../img/linkedin.svg', 50%, 590px 0px)
 
   .left
     margin-right: 1.5%
@@ -69,6 +112,7 @@ $grey: #414148
     vertical-align: middle
     height: 100%
     padding: 1.5em 12%
+
     p
       font-size: 1em
       text-transform: uppercase
@@ -81,13 +125,13 @@ $grey: #414148
     border-radius: .35em
 
   .pink
-    background: rgba(230, 56, 222, .6)
+    background: rgba(230, 56, 222, .7)
 
   .green
-    background: rgba(80, 218, 93, .6)
+    background: rgba(80, 218, 93, .7)
 
   .purple
-    background: rgba(145, 89, 219, .6)
+    background: rgba(145, 89, 219, .7)
 
   .blue
-    background: rgba(131, 226, 245, .6)
+    background: rgba(131, 226, 245, .7)

@@ -1,5 +1,28 @@
+.mobile_toggle {
+  display: none; }
+
+@media (max-width: 800px) {
+  .mobile_toggle {
+    display: table; }
+  .card_half_mobile {
+    width: 100%; }
+  .web_toggle {
+    display: none;
+    width: 100%; } }
+
 * {
   box-sizing: border-box; }
+
+a {
+  text-decoration: none; }
+  a .card:hover {
+    webkit-filter: blur(4px);
+    filter: blur(4px); }
+
+footer {
+  color: #ffffff;
+  text-align: center;
+  font-size: .8em; }
 
 .cf:before, .cf:after {
   content: "";
@@ -40,13 +63,30 @@
     background: #ffffff;
     border-radius: .35em;
     height: 450px;
-    display: table; }
+    display: table;
+    background-repeat: no-repeat;
+    color: #ffffff; }
   .work .card_full {
     width: 100%; }
   .work .card_half {
     width: 48.5%;
     float: left;
     height: 700px; }
+  .work .card_third {
+    width: 75%;
+    float: left; }
+  .work .card_2 {
+    background-image: url("../img/github.svg");
+    background-size: 130%;
+    background-position: 100px 20px; }
+  .work .card_3 {
+    background-image: url("../img/medium.svg");
+    background-size: 130%;
+    background-position: 100px 20px; }
+  .work .card_4 {
+    background-image: url("../img/linkedin.svg");
+    background-size: 50%;
+    background-position: 590px 0px; }
   .work .left {
     margin-right: 1.5%; }
   .work .right {
@@ -66,10 +106,10 @@
   .work .pink, .work .green, .work .purple, .work .blue {
     border-radius: .35em; }
   .work .pink {
-    background: rgba(230, 56, 222, 0.6); }
+    background: rgba(230, 56, 222, 0.7); }
   .work .green {
-    background: rgba(80, 218, 93, 0.6); }
+    background: rgba(80, 218, 93, 0.7); }
   .work .purple {
-    background: rgba(145, 89, 219, 0.6); }
+    background: rgba(145, 89, 219, 0.7); }
   .work .blue {
-    background: rgba(131, 226, 245, 0.6); }
+    background: rgba(131, 226, 245, 0.7); }
