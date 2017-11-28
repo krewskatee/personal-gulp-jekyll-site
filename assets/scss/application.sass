@@ -1,0 +1,93 @@
+$pink: #ea48eb
+$white: #ffffff
+$grey: #414148
+
+@mixin bg_img($url, $size, $position)
+  background-image: url($url)
+  background-size: $size
+  background-position: $position
+
+*
+  box-sizing: border-box
+
+.cf:before, .cf:after
+  content: ""
+  display: table
+
+.cf:after
+  clear: both
+
+.wrapper
+  width: 1000px
+  max-width: 100%
+  margin: 0 auto
+
+.banner
+  padding: 5em 0
+  .logo
+    float: left
+  h1
+    color: $grey
+    text-align: right
+    font-size: 5em
+    display: inline
+    float: right
+    margin: 0
+
+.work
+  background: $grey
+  padding: 5em 2em
+  .row
+    width: 100%
+    margin-bottom: 2em
+    &:before, &:after
+      content: ""
+      display: table
+    &:after
+      clear: both
+  .card
+    background: $white
+    border-radius: .35em
+    height: 450px
+    display: table
+
+  .card_full
+    width: 100%
+
+  .card_half
+    width: 48.5%
+    float: left
+    height: 700px
+
+  .left
+    margin-right: 1.5%
+  .right
+    margin-left: 1.5%
+
+  .card_inner
+    display: table-cell
+    vertical-align: middle
+    height: 100%
+    padding: 1.5em 12%
+    p
+      font-size: 1em
+      text-transform: uppercase
+      font-weight: 700
+    h2
+      font-size: 3em
+      margin: 0
+
+  .pink, .green, .purple, .blue
+    border-radius: .35em
+
+  .pink
+    background: rgba(230, 56, 222, .6)
+
+  .green
+    background: rgba(80, 218, 93, .6)
+
+  .purple
+    background: rgba(145, 89, 219, .6)
+
+  .blue
+    background: rgba(131, 226, 245, .6)
