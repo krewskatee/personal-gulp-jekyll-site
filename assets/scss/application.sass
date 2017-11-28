@@ -2,6 +2,11 @@ $pink: #ea48eb
 $white: #ffffff
 $grey: #414148
 
+body
+  font-family: 'Crimson Text', serif
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Yeseva+One|Crimson+Text')
+
 @mixin bg_img($url, $size, $position)
   background-image: url($url)
   background-size: $size
@@ -10,7 +15,7 @@ $grey: #414148
 .mobile_toggle
   display: none
 
-@media (max-width: 800px)
+@media (max-width: 900px)
   .mobile_toggle
     display: table
   .card_half_mobile
@@ -18,8 +23,12 @@ $grey: #414148
   .web_toggle
     display: none
     width: 100%
-h1
-  font-family: 'Cinzel', serif
+
+h1, h2
+  font-family: 'Yeseva One', cursive
+
+h2
+  font-weight: lighter
 
 *
   box-sizing: border-box
