@@ -10,6 +10,9 @@
     display: none;
     width: 100%; } }
 
+h1 {
+  font-family: 'Cinzel', serif; }
+
 * {
   box-sizing: border-box; }
 
@@ -109,7 +112,11 @@ footer {
   .work .pink, .work .green, .work .purple, .work .blue {
     border-radius: .35em; }
   .work .pink {
-    background: rgba(230, 56, 222, 0.7); }
+    background: rgba(230, 56, 222, 0.7);
+    text-align: center;
+    font-size: 1.3em; }
+    .work .pink h2 {
+      font-size: 3em; }
   .work .green {
     background: rgba(80, 218, 93, 0.7); }
   .work .purple {
